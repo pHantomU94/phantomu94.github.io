@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shengjie Hu</title>
-    <link>https://github.com/pHantomU94/phantomu94.github.io/</link>
-      <atom:link href="https://github.com/pHantomU94/phantomu94.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Shengjie Hu</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/pHantomU94/phantomu94.github.io/media/icon_hu_8baae51ca64d2c53.png</url>
+      <url>https://example.com/media/icon_hu_8baae51ca64d2c53.png</url>
       <title>Shengjie Hu</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/</link>
+      <link>https://example.com/</link>
     </image>
     
     <item>
       <title>Experience</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/experience/</link>
+      <link>https://example.com/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://github.com/pHantomU94/phantomu94.github.io/experience/</guid>
+      <guid>https://example.com/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hierarchy SeparateEMD for Few-Shot Learning</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/publications/separateemd-paper/</link>
+      <link>https://example.com/publications/separateemd-paper/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://github.com/pHantomU94/phantomu94.github.io/publications/separateemd-paper/</guid>
+      <guid>https://example.com/publications/separateemd-paper/</guid>
       <description>
 
 
@@ -128,9 +128,9 @@
     
     <item>
       <title>Adaptive load balancing on multi-core IPsec gateway</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/publications/spm-paper/</link>
+      <link>https://example.com/publications/spm-paper/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/pHantomU94/phantomu94.github.io/publications/spm-paper/</guid>
+      <guid>https://example.com/publications/spm-paper/</guid>
       <description>
 
 
@@ -234,9 +234,9 @@
     
     <item>
       <title>Adaptive load balancing on multi-core IPsec gateway</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/publications/ipsec-paper/</link>
+      <link>https://example.com/publications/ipsec-paper/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://github.com/pHantomU94/phantomu94.github.io/publications/ipsec-paper/</guid>
+      <guid>https://example.com/publications/ipsec-paper/</guid>
       <description>
 
 

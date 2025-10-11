@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distributed Computing | Shengjie Hu</title>
-    <link>https://github.com/pHantomU94/phantomu94.github.io/tags/distributed-computing/</link>
-      <atom:link href="https://github.com/pHantomU94/phantomu94.github.io/tags/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tags/distributed-computing/</link>
+      <atom:link href="https://example.com/tags/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>Distributed Computing</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/pHantomU94/phantomu94.github.io/media/icon_hu_8baae51ca64d2c53.png</url>
+      <url>https://example.com/media/icon_hu_8baae51ca64d2c53.png</url>
       <title>Distributed Computing</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/tags/distributed-computing/</link>
+      <link>https://example.com/tags/distributed-computing/</link>
     </image>
     
     <item>
       <title>Adaptive load balancing on multi-core IPsec gateway</title>
-      <link>https://github.com/pHantomU94/phantomu94.github.io/publications/ipsec-paper/</link>
+      <link>https://example.com/publications/ipsec-paper/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://github.com/pHantomU94/phantomu94.github.io/publications/ipsec-paper/</guid>
+      <guid>https://example.com/publications/ipsec-paper/</guid>
       <description>
 
 

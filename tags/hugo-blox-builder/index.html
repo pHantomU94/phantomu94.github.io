@@ -1,13 +1,13 @@
 <!doctype html>
 <!-- This site was created with Hugo Blox. https://hugoblox.com -->
-<!-- Last Published: October 11, 2025 --><html lang="en-us" dir="ltr"
+<!-- Last Published: October 12, 2025 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="system">
   
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="generator" content="Hugo Blox Builder 0.5.2" />
+  <meta name="generator" content="Hugo Blox Builder 0.7.0" />
 
   
   
@@ -34,7 +34,7 @@
   
   
 
-  <meta name="author" content="吳健雄" />
+  <meta name="author" content="Alex Johnson" />
 
   
   
@@ -51,7 +51,7 @@
   
   
     
-    <link rel="stylesheet" href="/css/themes/emerald.min.css" />
+    <link rel="stylesheet" href="/css/themes/indigo.min.css" />
   
 
   
@@ -75,54 +75,7 @@
 
   
 
-  <script>
-     
-    window.hbb = {
-       defaultTheme: document.documentElement.dataset.wcThemeDefault,
-       setDarkTheme: () => {
-        document.documentElement.classList.add("dark");
-        document.documentElement.style.colorScheme = "dark";
-      },
-       setLightTheme: () => {
-        document.documentElement.classList.remove("dark");
-        document.documentElement.style.colorScheme = "light";
-      }
-    }
-
-    console.debug(`Default Hugo Blox Builder theme is ${window.hbb.defaultTheme}`);
-
-    if ("wc-color-theme" in localStorage) {
-      localStorage.getItem("wc-color-theme") === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-    } else {
-      window.hbb.defaultTheme === "dark" ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      if (window.hbb.defaultTheme === "system") {
-        window.matchMedia("(prefers-color-scheme: dark)").matches ? window.hbb.setDarkTheme() : window.hbb.setLightTheme();
-      }
-    }
-  </script>
-
-  <script>
-    
-    document.addEventListener('DOMContentLoaded', function () {
-      
-      let checkboxes = document.querySelectorAll('li input[type=\'checkbox\'][disabled]');
-      checkboxes.forEach(e => {
-        e.parentElement.parentElement.classList.add('task-list');
-      });
-
-      
-      const liNodes = document.querySelectorAll('.task-list li');
-      liNodes.forEach(nodes => {
-        let textNodes = Array.from(nodes.childNodes).filter(node => node.nodeType === 3 && node.textContent.trim().length > 1);
-        if (textNodes.length > 0) {
-          const span = document.createElement('label');
-          textNodes[0].after(span);  
-          span.appendChild(nodes.querySelector('input[type=\'checkbox\']'));
-          span.appendChild(textNodes[0]);
-        }
-      });
-    });
-  </script>
+  <script src="/js/hb-head.min.js"></script>
 
   
   
@@ -224,6 +177,7 @@
     
   
   
+  <link rel="preload" href="/dist/font/Inter.var.woff2" as="font" type="font/woff2" crossorigin>
   <style>
     @font-face {
       font-family: 'Inter var';
@@ -240,259 +194,157 @@
   
 
 
+
+
   
-  
-  
-  
-  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
-    
-  
-  
-  
-  
-  
-  
-    
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
     
   
   
     
-      
-      
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
-      
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+      
+      
+      
+      
+      
+    
+  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+      
+      
+      
+      
+      
+    
+  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+      
+      
+      
+      
+      
+    
+  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+      
+      
+      
+      
+      
+    
+  
+  
+    
     
       
       
-        
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-        
       
+      
+      
+      
+      
+      
+    
+  
+  
+    
     
       
       
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
+    
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  
+    
     
   
   
@@ -503,7 +355,13 @@
   
   
   
-  
+
+  <script
+    defer
+    src="/js/hugo-blox-en.min.js"
+    integrity=""
+  ></script>
+
   
   
 
@@ -519,7 +377,7 @@
 <script src="/dist/pagefind/pagefind-ui.87693d7c6f2b3b347ce359d0ede762c033419f0a32b22ce508c335a81d841f1b.js" integrity="sha256-h2k9fG8rOzR841nQ7ediwDNBnwoysizlCMM1qB2EHxs="></script>
 
 
-<script>window.hbb.pagefind = {"baseUrl":"/"};</script>
+<script id="search-config" type="application/json">{"baseUrl":"/"}</script>
 
 <style>
   html.dark {
@@ -537,62 +395,7 @@
   }
 </style>
 
-<script>
-  
-  let searchWrapper = null;
-
-  window.addEventListener('DOMContentLoaded', (event) => {
-    
-    new PagefindUI({
-      element: "#search",
-      showSubResults: true,
-      baseUrl: window.hbb.pagefind.baseUrl,
-      bundlePath: window.hbb.pagefind.baseUrl + "pagefind/",
-    });
-
-    
-    searchWrapper = document.getElementById('search-wrapper');
-
-    
-    let triggers = document.querySelectorAll('[data-search-toggle]');
-    triggers.forEach(trigger =>
-      trigger.addEventListener('click', handleSearchToggle)
-    );
-  });
-
-  function handleSearchToggle(event) {
-    if (!searchWrapper) return;
-
-    const isHidden = searchWrapper.classList.contains('hidden');
-    searchWrapper.classList.toggle('hidden');
-    document.body.style.overflow = isHidden ? 'hidden' : '';
-
-    const searchInput = searchWrapper.querySelector("input");
-    if (searchInput) {
-      searchInput.value = "";
-      searchInput.focus();
-    }
-
-    if (!searchWrapper.classList.contains('hidden')) {
-      let clearTrigger = document.querySelector('.pagefind-ui__search-clear');
-
-      if (clearTrigger && !clearTrigger.hasAttribute('listenerOnClick')) {
-        clearTrigger.setAttribute('listenerOnClick', 'true');
-
-        clearTrigger.addEventListener('click', () => {
-          searchInput.focus();
-        });
-      }
-    }
-  }
-
-  
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape' && searchWrapper && !searchWrapper.classList.contains('hidden')) {
-      searchWrapper.classList.add('hidden');
-    }
-  });
-</script>
+<script defer src="/js/hb-search.min.js"></script>
 
 
 
@@ -607,19 +410,6 @@
 
 
 
-
-  
-  
-  
-  
-  
-  
-  
-  <script
-    defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
-  ></script>
 
   
   
@@ -642,8 +432,6 @@
       
       
       
-        
-        
         
           <header id="site-header" class="header">
   <nav class="navbar px-3 flex justify-start">
@@ -869,17 +657,19 @@
 
 
 
+
+
+
   
 
 
 <div class="flex flex-col items-center">
 
-  <div class="container max-w-[65ch] mx-auto bg-white dark:bg-zinc-900 rounded-xl border-gray-100 dark:border-gray-700 border shadow-md overflow-hidden my-5">
+  <div class="container max-w-[65ch] mx-auto grid grid-cols-1 gap-6 my-5">
 
 
   
   
-  
 
 
 
@@ -888,32 +678,122 @@
 
 
 
-<a href="/post/teach-courses/"  class="mb-5">
-  <div class="md:flex">
-    <div class="md:flex-shrink-0 overflow-hidden">
+
+
+
+
+
+
+<div class="group bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl ring-1 ring-zinc-900/5 dark:ring-white/10 shadow-lg overflow-hidden transition-all duration-300 ease-out hover:shadow-xl hover:shadow-blue-500/10 hover:-translate-y-2 focus-within:ring-2 focus-within:ring-blue-500/50" role="article" aria-labelledby="card-title-0f953cedd41c4f26bc7a5782d98b17c7">
+    
+    <div class="relative overflow-hidden aspect-[16/9] bg-gradient-to-br from-zinc-100 to-zinc-200 dark:from-zinc-800 dark:to-zinc-900">
+      
       
         
+          
+          
+            
+          
+          
+          <a href="/post/teach-courses/"  class="block">
+            <img class="w-full h-full transition-transform duration-500 ease-out group-hover:scale-105 object-fill" 
+                 srcset="/post/teach-courses/featured_hu_f368155d9ccee599.webp 400w, /post/teach-courses/featured_hu_94c767d1681a0547.webp 600w, /post/teach-courses/featured_hu_89ac2a64beab160e.webp 800w, /post/teach-courses/featured_hu_3fd9b72675803c71.webp 800w"
+                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                 src="/post/teach-courses/featured_hu_f368155d9ccee599.webp" 
+                 width="800" 
+                 height="450"
+                 loading="lazy" 
+                 decoding="async"
+                 fetchpriority="high"
+                 style="position: absolute; height: 100%; width: 100%; inset: 0px; color: transparent;"
+                 alt="👩🏼‍🏫 Teach academic courses featured image">
+          </a>
+        
+      
+      
+      
+      <div class="absolute inset-0 pointer-events-none bg-gradient-to-t from-black/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+    </div>
+
+    
+    <div class="p-8 space-y-4">
+      
+
+      
+      <div class="flex items-center gap-2">
+        
+        <a href="/tags/hugo/">
+          <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-primary-100 text-primary-800 dark:bg-primary-900/40 dark:text-primary-300">
+            Hugo
+          </span>
+        </a>
+        
+      </div>
+      
+
+      <h3 id="card-title-0f953cedd41c4f26bc7a5782d98b17c7" class="text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors duration-200 leading-tight">
+        <a href="/post/teach-courses/"  class="hover:underline">
+          👩🏼‍🏫 Teach academic courses
+          
+        </a>
+      </h3>
+      
+      <p class="text-zinc-600 dark:text-zinc-400 text-base leading-relaxed line-clamp-3">
+        Embed videos, podcasts, code, LaTeX math, and even test students!
+      </p>
+
+      
+
+      
+      <div class="flex flex-col gap-2 sm:flex-row sm:items-center justify-between pt-3 border-t border-zinc-100 dark:border-zinc-800">
+        <div class="flex items-center gap-3 text-xs text-zinc-500 dark:text-zinc-500 flex-wrap">
+          
+          <div class="flex items-center gap-2 min-w-0">
+            
+            <div class="relative h-6 w-6 flex-shrink-0">
+              
+              
+                
+                <img alt="avatar" class="rounded-full object-cover" src="/author/alex-johnson/avatar_hu_528cb86b00c6f38e.webp" width="24" height="24" loading="lazy" decoding="async" />
+              
+            </div>
+            <span class="truncate max-w-[9rem] text-sm">Alex Johnson</span>
+            
+          </div>
+          <span class="opacity-40">•</span>
+          
+          
+            <time class="hidden sm:inline whitespace-nowrap" datetime="2023-10-24">
+              Oct 24, 2023
+            </time>
+          
+          
+            <span class="hidden sm:inline opacity-40">•</span>
+          
+          
+            
+            
+            
+            
+            <span class="hidden sm:inline whitespace-nowrap">2 min read</span>
+          
+        </div>
         
         
-        <img class="h-48 w-full object-cover md:w-48 hover:scale-125 transition duration-500 cursor-pointer object-cover" 
-             srcset="/post/teach-courses/featured_hu_985790e20cc69b80.webp 192w, /post/teach-courses/featured_hu_a47afc75a5f77b0c.webp 384w, /post/teach-courses/featured_hu_2f51013214e3d82.webp 480w, /post/teach-courses/featured_hu_cf5ad0131d257aa5.webp 655w, /post/teach-courses/featured_hu_2fc1bc131e4812f3.webp 655w"
-             sizes="(max-width: 768px) 100vw, 192px"
-             src="/post/teach-courses/featured_hu_985790e20cc69b80.webp" 
-             width="655" 
-             height="655"
-             loading="lazy" 
-             alt="👩🏼‍🏫 Teach academic courses">
+        
+          <a href="/post/teach-courses/"  class="flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium text-sm opacity-70 group-hover:opacity-100 transform group-hover:translate-x-1 transition-all duration-300 self-start sm:self-auto sm:ml-0">
+            <span>Read more</span>
+            <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+            </svg>
+          </a>
+        
+      </div>
+      
+      
       
     </div>
-    <div class="p-8">
-      <div class="uppercase tracking-wide text-md text-primary-700 dark:text-primary-200 font-semibold">👩🏼‍🏫 Teach academic courses</div>
-      <p class="block mt-1 text-sm leading-tight font-medium text-black dark:text-white">
-        Embed videos, podcasts, code, LaTeX math, and even test students!</p>
-      <p class="mt-2 text-gray-500 dark:text-gray-400 text-sm">Oct 24, 2023</p>
-    </div>
-  </div>
-</a>
-
+</div>
   
 
   </div>
@@ -942,8 +822,6 @@
 
 
 
-  
-  
   
   
   
@@ -998,21 +876,32 @@
 
 
 
-  <p class="powered-by text-center">
+  
     
     
+      
+      
+        
+        
+      
     
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://hugoblox.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Hugo Blox Builder</a> — the free, <a href="https://github.com/HugoBlox/hugo-blox-builder" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
 
-</footer>
+    <p class="powered-by text-center text-sm opacity-80 py-1">
+      
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      Made with <a class="underline hover:opacity-100" href="https://hugoblox.com?utm_source=site_footer&utm_medium=referral&utm_campaign=poweredby_oss&utm_content=brand_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_brand">Hugo Blox Builder</a>.
+      <a class="inline-flex items-center rounded px-2 py-0.5 border border-current ms-2 text-xs hover:opacity-100"
+         href="https://hugoblox.com/templates/academic-cv/start?utm_source=site_footer&amp;utm_medium=referral&amp;utm_campaign=poweredby_oss&amp;utm_content=cta_academic-cv" target="_blank" rel="noopener" data-hbx="poweredby_cta">Build your site →</a>
+    </p></footer>
 
     </div>
 

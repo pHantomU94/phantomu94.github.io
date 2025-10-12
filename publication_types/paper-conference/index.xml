@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Paper-Conference | Shengjie Hu</title>
-    <link>https://phantomu94.github.io/publication_types/paper-conference/</link>
-      <atom:link href="https://phantomu94.github.io/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/paper-conference/</link>
+      <atom:link href="http://localhost:1313/publication_types/paper-conference/index.xml" rel="self" type="application/rss+xml" />
     <description>Paper-Conference</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://phantomu94.github.io/media/icon_hu_8baae51ca64d2c53.png</url>
+      <url>http://localhost:1313/media/icon_hu_8baae51ca64d2c53.png</url>
       <title>Paper-Conference</title>
-      <link>https://phantomu94.github.io/publication_types/paper-conference/</link>
+      <link>http://localhost:1313/publication_types/paper-conference/</link>
     </image>
     
     <item>
       <title>Hierarchy SeparateEMD for Few-Shot Learning</title>
-      <link>https://phantomu94.github.io/publications/separateemd-paper/</link>
+      <link>http://localhost:1313/publications/separateemd-paper/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://phantomu94.github.io/publications/separateemd-paper/</guid>
+      <guid>http://localhost:1313/publications/separateemd-paper/</guid>
       <description>
 
 
@@ -120,9 +120,9 @@
     
     <item>
       <title>Adaptive load balancing on multi-core IPsec gateway</title>
-      <link>https://phantomu94.github.io/publications/spm-paper/</link>
+      <link>http://localhost:1313/publications/spm-paper/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://phantomu94.github.io/publications/spm-paper/</guid>
+      <guid>http://localhost:1313/publications/spm-paper/</guid>
       <description>
 
 
@@ -226,9 +226,9 @@
     
     <item>
       <title>Adaptive load balancing on multi-core IPsec gateway</title>
-      <link>https://phantomu94.github.io/publications/ipsec-paper/</link>
+      <link>http://localhost:1313/publications/ipsec-paper/</link>
       <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>https://phantomu94.github.io/publications/ipsec-paper/</guid>
+      <guid>http://localhost:1313/publications/ipsec-paper/</guid>
       <description>
 
 

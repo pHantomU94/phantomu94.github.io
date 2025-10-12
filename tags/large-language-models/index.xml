@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Large Language Models | Shengjie Hu</title>
-    <link>http://localhost:1313/tags/large-language-models/</link>
-      <atom:link href="http://localhost:1313/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://phantomu94.github.io/tags/large-language-models/</link>
+      <atom:link href="https://phantomu94.github.io/tags/large-language-models/index.xml" rel="self" type="application/rss+xml" />
     <description>Large Language Models</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_8baae51ca64d2c53.png</url>
+      <url>https://phantomu94.github.io/media/icon_hu_8baae51ca64d2c53.png</url>
       <title>Large Language Models</title>
-      <link>http://localhost:1313/tags/large-language-models/</link>
+      <link>https://phantomu94.github.io/tags/large-language-models/</link>
     </image>
     
     <item>
       <title>Hierarchy SeparateEMD for Few-Shot Learning</title>
-      <link>http://localhost:1313/publications/separateemd-paper/</link>
+      <link>https://phantomu94.github.io/publications/separateemd-paper/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/separateemd-paper/</guid>
+      <guid>https://phantomu94.github.io/publications/separateemd-paper/</guid>
       <description>
 
 
